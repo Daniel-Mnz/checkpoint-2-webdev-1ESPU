@@ -69,3 +69,22 @@ while(contagem > 0){
     contagem--;
 }
 console.log("FIM!");
+
+//Questão 7 – Verificador de Idade
+function verificarIdade(idade) {
+    if (idade < 18) {
+        return "Menor de idade";
+    } else if (idade >= 18 && idade < 60) {
+        return "Maior de idade";
+    } else {
+        return "Idoso";
+    }
+}
+   
+ 
+console.log(verificarIdade(15))
+console.log(verificarIdade(18))
+console.log(verificarIdade(43))
+console.log(verificarIdade(59))
+console.log(verificarIdade(60))
+console.log(verificarIdade(67))
