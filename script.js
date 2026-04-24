@@ -52,4 +52,12 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
+//Questão 5
+let a = 1;
+let soma = 0;
+while (a <= 5){
+    soma += a;
+    a++;
 
+}
+console.log (soma);
