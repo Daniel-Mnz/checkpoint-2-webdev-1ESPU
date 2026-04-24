@@ -61,3 +61,11 @@ while (a <= 5){
 
 }
 console.log (soma);
+
+//Questão 6 – Loop do/while
+let contagem = 3
+while(contagem > 0){
+    console.log(contagem);
+    contagem--;
+}
+console.log("FIM!");
