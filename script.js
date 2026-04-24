@@ -111,3 +111,18 @@ let temEstudar = tarefas.includes("Estudar");
 console.log("Array:", arrayTarefas);
 console.log("Formatado:", tarefasFormatadas);
 console.log("Tem 'Estudar'?", temEstudar);
+
+//Questão 10 Números Aleatórios e Área de Círculo
+function gerarRaio() {
+  return Math.random() * (15 - 5) + 5;
+}
+ 
+function calcularAreaCirculo(raio) {
+  return Math.PI * Math.pow(raio, 2);
+}
+ 
+let raio = gerarRaio();
+let area = calcularAreaCirculo(raio);
+ 
+console.log("Raio:", raio.toFixed(2));
+console.log("Área:", area.toFixed(2));
