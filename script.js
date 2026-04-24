@@ -98,3 +98,16 @@ let acessoPermitido = true;
     } else {
         console.log (!acessoPermitido)
     }
+
+//Questão 9 - Manipulação de Strings
+let tarefas = "Estudar, Treinar, Trabalhar, Descansar";
+ 
+let arrayTarefas = tarefas.split(",");
+ 
+let tarefasFormatadas = arrayTarefas.join(" | ");
+ 
+let temEstudar = tarefas.includes("Estudar");
+ 
+console.log("Array:", arrayTarefas);
+console.log("Formatado:", tarefasFormatadas);
+console.log("Tem 'Estudar'?", temEstudar);
