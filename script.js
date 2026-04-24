@@ -88,3 +88,13 @@ console.log(verificarIdade(43))
 console.log(verificarIdade(59))
 console.log(verificarIdade(60))
 console.log(verificarIdade(67))
+
+// Questão 8 – Acesso ao Sistema
+let temSenhaCorreta = true;
+let temBiometriaAutenticada = false;
+let acessoPermitido = true;
+    if (temSenhaCorreta == true || temBiometriaAutenticada == true){
+        console.log (acessoPermitido)
+    } else {
+        console.log (!acessoPermitido)
+    }
